@@ -10,7 +10,6 @@ body {
 
 .focuscard {
     display: flex;
-    border: 1px solid lightgrey;
     width: 750px;
     height: 375px;
 }
@@ -18,10 +17,10 @@ body {
 .focustext {
     display: flex;
     flex-direction: column;
-    border: 1px solid lightgrey;
     width: 60%;
     height: 100%;
     padding-top: 4%;
+    justify-content: space-between;
 }
 
 .focustext > h1 {
@@ -48,6 +47,11 @@ body {
     margin-right: 10px;
 }
 
+#focussignup:hover {
+    color: rgb(34, 79, 239);
+    background-color: white;
+}
+
 #focuschat {
     color: rgb(34, 79, 239);
     background-color: white;
@@ -57,6 +61,32 @@ body {
     width: 138px;
     height: 45px;
     margin-right: 10px;
+}
+
+#focuschat:hover {
+    color: white;
+    background-color: rgb(34, 79, 239);
+}
+
+.focusdetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 75%;
+}
+
+.focusdetails p {
+    color: black;
+    font-size: x-small;
+
+}
+
+.circle {
+    background-color: rgb(34, 79, 239);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
 }
 
 .focusgrid {
