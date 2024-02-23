@@ -6,8 +6,10 @@
 
 .login-form {
     display:flex;
-    flex-wrap: wrap;
+
     justify-content:center;
+
+    max-height: 250px;
     
     
 }
@@ -15,7 +17,7 @@
     border-radius: 25px;
     border: 1px solid rgb(0, 0, 0);
     padding: 20px; 
-    width: 200px;
+    width: 300px;
     height: 15px;    
     
 }
