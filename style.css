@@ -37,4 +37,14 @@ button{
     padding: 5px;
     margin-top: 10px;
 }
+
+.signin-btn {
+    color: #224FEF;
+}
+
+.free-btn {
+    color: #ffffff;
+    background-color: #224FEF
+}
+
 </style>
