@@ -1,3 +1,67 @@
 body {
     font-family: Helvetica, sans-serif
 }
+.focus-container {
+    width: 100w;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.focuscard {
+    display: flex;
+    border: 1px solid lightgrey;
+    width: 750px;
+    height: 375px;
+}
+
+.focustext {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 60%;
+    height: 100%;
+    padding-top: 4%;
+}
+
+.focustext > h1 {
+    font-weight: bold;
+}
+
+.focustext p {
+    color: gray;
+    font-size: small;
+}
+
+.focustextbuttons {
+    display: flex;
+}
+
+#focussignup {
+    color: white;
+    border: 1px solid rgb(34, 79, 239);
+    background-color: rgb(34, 79, 239);
+    border-radius: 5px;
+    font-size: small;
+    width: 138px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#focuschat {
+    color: rgb(34, 79, 239);
+    background-color: white;
+    border: 1px solid rgb(34, 79, 239);
+    border-radius: 5px;
+    font-size: small;
+    width: 138px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.focusgrid {
+    border: 1px solid lightgrey;
+    width: 40%;
+    display: flex;
+}
+
