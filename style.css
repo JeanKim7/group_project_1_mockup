@@ -17,7 +17,7 @@ body {
 .focustext {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 55%;
     height: 100%;
     padding-top: 4%;
     justify-content: space-between;
@@ -73,7 +73,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     
-    width: 75%;
+    width: 80%;
 }
 
 .focusdetails p {
@@ -90,8 +90,72 @@ body {
 }
 
 .focusgrid {
-    border: 1px solid lightgrey;
-    width: 40%;
-    display: flex;
+    width: 45%;
+    height: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    filter: drop-shadow(2mm 2mm 2mm rgb(217, 217, 217));
+    font-size: 7px;
 }
 
+.focusgrid div {
+    margin: 5px;
+    height: 33%;
+    
+}
+
+.focusgrid .col {
+    height: 80%;
+    justify-content: center;
+}
+
+.grid-a {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius: 50% 0;
+}
+
+.grid-b {
+    background-color: white;
+    border-radius: 50% 0 0 0;
+}
+
+.grid-c {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius: 50%; 
+}
+
+.grid-d {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius: 50%; 
+}
+
+.grid-e {
+    border-radius: 0 50% 0 0;
+    background-color: white;
+}
+
+.grid-f {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius:0 0 50% 0; 
+}
+
+.grid-g {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius:0 0 0 50%; 
+}
+
+.grid-h {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.grid-i {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius:0 0 50% 0; 
+}
