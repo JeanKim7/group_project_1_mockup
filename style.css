@@ -1,6 +1,8 @@
 body {
     font-family: Helvetica, sans-serif
 }
+
+/* footer style */
 .footer {
     display: flex;
     flex-direction: column;
@@ -9,10 +11,30 @@ body {
     padding: 20px;
     text-align: center;
 }
-/* Footer links styles */
+
+/* footer link styles */
 .footer a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 10px;
+}
+
+/* navbar styling */
+.navbar {
+    padding: 0 20px;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+button{
+    background-color: #224FEF);
+    border-radius: 10px;
+    border-color: #224FEF;
+    width: 80%;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
 }
 </style>
