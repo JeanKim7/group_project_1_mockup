@@ -1,0 +1,28 @@
+
+.blue-background {
+    background-color: blue;
+    clip-path: ellipse(99% 87% at 0% 7%);
+}
+
+.login-form {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    
+}
+#ip2 {
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+    
+}
+
+.login-form2 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap
+}
