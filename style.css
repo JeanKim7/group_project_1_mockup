@@ -1,3 +1,18 @@
 body {
     font-family: Helvetica, sans-serif
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #224FEF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/* Footer links styles */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+</style>
