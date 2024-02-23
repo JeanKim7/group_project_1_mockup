@@ -9,7 +9,7 @@
 
     justify-content:center;
 
-    max-height: 250px;
+    max-height: 400px;
     
     
 }
@@ -25,6 +25,26 @@
 .login-form2 {
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 flex-wrap: wrap
+}
+
+
+
+.login-iconsmail {
+    transform: translate(-293px, 250px);
+}
+
+.login-iconsuser {
+   transform: translate(-312px, 135px);
+}
+
+.login-iconlock {
+    transform: translate(-330px, 362px);
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
 }
