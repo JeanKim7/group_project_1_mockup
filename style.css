@@ -2,6 +2,24 @@ body {
     font-family: Helvetica, sans-serif
 }
 
+/* navbar styling */
+.navbar {
+    padding: 0 20px;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+.signin-btn {
+    color: #224FEF;
+}
+
+.free-btn {
+    color: #ffffff;
+    background-color: #224FEF
+}
+
 /* footer style */
 .footer {
     display: flex;
@@ -19,32 +37,18 @@ body {
     margin: 10px;
 }
 
-/* navbar styling */
-.navbar {
-    padding: 0 20px;
+.get-started-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
-.logo {
-    max-height: 40px;
-}
-
-button{
-    background-color: #224FEF);
-    border-radius: 10px;
-    border-color: #224FEF;
-    width: 80%;
-    font-weight: bold;
-    padding: 5px;
-    margin-top: 10px;
-}
-
-.signin-btn {
+.chat-with-us-btn {
+    background-color: #ffffff;
     color: #224FEF;
-}
-
-.free-btn {
-    color: #ffffff;
-    background-color: #224FEF
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 </style>
