@@ -32,6 +32,15 @@ body {
     font-size: small;
 }
 
+.focustext a {
+    color: gray;
+    text-decoration: none;
+}
+
+.focustext a:hover {
+    text-decoration: underline;
+}
+
 .focustextbuttons {
     display: flex;
     margin-bottom: 6px;
@@ -44,7 +53,7 @@ body {
     border-radius: 5px;
     font-size: small;
     width: 138px;
-    height: 45px;
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -60,7 +69,7 @@ body {
     border-radius: 5px;
     font-size: small;
     width: 138px;
-    height: 45px;
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -80,7 +89,6 @@ body {
 .focusdetails p {
     color: black;
     font-size: x-small;
-
 }
 
 .circle {
