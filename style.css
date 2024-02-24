@@ -259,3 +259,20 @@ body {
 .heading_solutions {
     margin-top: 10vh;
 }
+
+.comp_bg_1 {
+    background-color: rgb(183, 235, 255);
+    width:20vw;
+    height:20vw;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgb(223, 221, 221)
+}
+
+.comp_bg_1 > i {
+    font-size: 10vw;
+    color: rgb(34, 79, 239);
+    
+}
