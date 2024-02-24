@@ -241,8 +241,14 @@ body {
     background-color: rgb(34, 79, 239);
     padding-top:10vh;
     padding-bottom:10vh;
-    padding-right: 10vh;
+    padding-right: 3vh;
     padding-left:3vh;
+}
+
+@media (min-width: 768px) {
+    #credit_card_right {
+        padding-right: 10vh;
+    }
 }
 
 .bottom_right_cr {
@@ -260,8 +266,10 @@ body {
     margin-top: 10vh;
 }
 
-.comp_bg_1 {
-    background-color: rgb(183, 235, 255);
+
+
+.solutions_bg_1 {
+    background-color: rgb(205, 230, 253);
     width:20vw;
     height:20vw;
     border-radius: 50%;
@@ -271,8 +279,75 @@ body {
     border:2px solid rgb(223, 221, 221)
 }
 
-.comp_bg_1 > i {
+.solutions_bg_1 > i {
     font-size: 10vw;
     color: rgb(34, 79, 239);
     
+}
+
+
+@media (min-width:500px){
+    .solutions_bg_1 {
+        width:20vw;
+        height: 20vw;
+    }
+
+    .solutions_bg_1 > i {
+        font-size: 10vw
+    }
+}
+
+
+.sol_bus_card {
+    width:60vw;
+}
+
+.sol_bus_title {
+    font-weight:700;
+    font-size: 1.3rem;
+    margin: 1.2vh 0px;
+    text-align: center;
+}
+
+
+.scaling {
+    margin-bottom: 3vh;
+}
+
+@media (min-width:992px) {
+
+    .solutions_bg_1 {
+        background-color: rgb(205, 230, 253);
+        width:10vw;
+        height:10vw;
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border:2px solid rgb(223, 221, 221)
+    }
+    
+    .solutions_bg_1 > i {
+        font-size: 5vw;
+        color: rgb(34, 79, 239);
+        
+    }
+    
+    .sol_bus_card {
+        width:30vw;
+    }
+    
+    .sol_bus_title {
+        font-weight:700;
+        font-size: 1.6vw;
+        margin: 1.2vh 0px;
+    }
+
+    .scaling {
+        margin-bottom: 0px;
+    }
+
+    .last-row {
+        margin-top:3vh
+    }
 }
