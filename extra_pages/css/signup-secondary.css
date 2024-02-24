@@ -1,8 +1,4 @@
 
-.blue-background {
-    background-color: blue;
-    clip-path: ellipse(99% 87% at 0% 7%);
-}
 
 .login-form {
     display:flex;
@@ -34,11 +30,6 @@ flex-wrap: wrap
 .icon-container {
     display: flex;
     justify-content: space-around;
-}
-
-.imput-icons {
-    display: grid;
-    transform: translate();
 }
 
 .imput-icons {
