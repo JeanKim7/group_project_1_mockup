@@ -44,6 +44,6 @@ flex-wrap: wrap
 .imput-icons {
     display: grid;
 gap: 35px;
-transform: translate(-290px,-40px);
+transform: translate(-290px,-48px);
 padding: 3px;
 }
