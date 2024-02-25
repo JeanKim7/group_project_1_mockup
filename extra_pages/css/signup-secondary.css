@@ -1,0 +1,45 @@
+
+
+.login-form {
+    display:flex;
+
+    justify-content:center;
+
+    max-height: 400px;
+    
+    
+}
+#ip2 {
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 300px;
+    height: 15px;    
+    
+}
+
+.login-form2 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap
+}
+
+
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imput-icons {
+    display: grid;
+gap: 30px;
+transform: translate(-298px,-48px);
+padding: 3px;
+}
+
+.blue-background {
+max-width: 500px;
+max-height: 400px;
+}
