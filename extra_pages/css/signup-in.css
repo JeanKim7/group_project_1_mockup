@@ -1,0 +1,49 @@
+
+.blue-background {
+    background-color: blue;
+    clip-path: ellipse(99% 87% at 0% 7%);
+}
+
+.login-form {
+    display:flex;
+
+    justify-content:center;
+
+    max-height: 400px;
+    
+    
+}
+#ip2 {
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 300px;
+    height: 15px;    
+    
+}
+
+.login-form2 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap
+}
+
+
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imput-icons {
+    display: grid;
+    transform: translate();
+}
+
+.imput-icons {
+    display: grid;
+gap: 30px;
+transform: translate(-297px,-48px);
+padding: 3px;
+}
