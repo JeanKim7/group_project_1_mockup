@@ -1,6 +1,189 @@
 body {
     font-family: Helvetica, sans-serif;
 }
+.focus-container {
+    width: 100w;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.focuscard {
+    display: flex;
+    width: 750px;
+    height: 340px;
+}
+
+.focustext {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    padding-top: 4%;
+    justify-content: space-between;
+}
+
+.focustext > h1 {
+    font-weight: bold;
+}
+
+.focustext p {
+    color: gray;
+    font-size: small;
+}
+
+.focustext a {
+    color: gray;
+    text-decoration: none;
+}
+
+.focustext a:hover {
+    text-decoration: underline;
+}
+
+.focustextbuttons {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+#focussignup {
+    color: white;
+    border: 1px solid rgb(34, 79, 239);
+    background-color: rgb(34, 79, 239);
+    border-radius: 5px;
+    font-size: small;
+    width: 138px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#focussignup:hover {
+    color: rgb(34, 79, 239);
+    background-color: white;
+}
+
+#focuschat {
+    color: rgb(34, 79, 239);
+    background-color: white;
+    border: 1px solid rgb(34, 79, 239);
+    border-radius: 5px;
+    font-size: small;
+    width: 138px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#focuschat:hover {
+    color: white;
+    background-color: rgb(34, 79, 239);
+}
+
+.focusdetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 80%;
+}
+
+.focusdetails p {
+    color: black;
+    font-size: x-small;
+}
+
+.circle {
+    background-color: rgb(34, 79, 239);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.focusgrid {
+    width: 45%;
+    height: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    filter: drop-shadow(2mm 2mm 2mm rgb(217, 217, 217));
+    font-size: 9.1px;
+    text-align: center;
+    padding: 0;
+}
+
+.focusgrid div {
+    margin: 5px;
+    height: 33%;
+    
+}
+
+.focusgrid .col {
+    height: 80%;
+    justify-content: center;
+}
+
+.grid-a, .grid-b, .grid-c, .grid-d, .grid-e, .grid-f, .grid-g, .grid-h, .grid-i {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.grid-a {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius: 50% 0;
+}
+
+.grid-b {
+    background-color: white;
+    border-radius: 50% 0 0 0;
+}
+
+.grid-c {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius: 50%; 
+}
+
+.grid-d {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius: 50%; 
+}
+
+.grid-e {
+    border-radius: 0 50% 0 0;
+    background-color: white;
+}
+
+.grid-f {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius:0 0 50% 0; 
+}
+
+.grid-g {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius:0 0 0 50%; 
+}
+
+.grid-h {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.grid-i {
+    color: white;
+    background-color: rgb(34, 79, 239);
+    border-radius:0 0 50% 0; 
+}
+
+.dark-fill {
+    color: black;
+}
+
+
+/* Start "explore and solutions" section */
+
 
 .card_section { 
     display:flex;
@@ -351,4 +534,6 @@ body {
         margin-top:3vh
     }
 }
+
+/* end "explore and solutions" section */
 
