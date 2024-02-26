@@ -5,13 +5,9 @@
 }
 
 .login-form {
-    display:flex;
-
-    justify-content:center;
-
-    max-height: 400px;
-    
-    
+display:flex;
+justify-content:center;
+max-height: 400px;
 }
 #ip2 {
     border-radius: 25px;
@@ -37,13 +33,8 @@ flex-wrap: wrap
 }
 
 .imput-icons {
-    display: grid;
-    transform: translate();
-}
-
-.imput-icons {
-    display: grid;
+display: grid;
 gap: 30px;
-transform: translate(-297px,-48px);
+transform: translate(-300px,-48px);
 padding: 3px;
 }
