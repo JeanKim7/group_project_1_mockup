@@ -590,3 +590,20 @@ body {
     padding: 10px 20px;
     border-radius: 15px;
 }
+
+/*How it works section */
+
+.lorem_dummy1 {
+    width: 40vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.lorem_dummy_cont {
+    display:flex;
+    justify-content: center;
+}
+
+.padding_bot_5 {
+    margin-bottom: 50vh;
+}
