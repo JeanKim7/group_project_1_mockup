@@ -13,11 +13,16 @@ body {
 
 .signin-btn {
     color: #224FEF;
+    border-radius: 10px;
+    border-color: #224FEF;
+    background-color: #ffffff;
 }
 
 .free-btn {
     color: #ffffff;
-    background-color: #224FEF
+    background-color: #224FEF;
+    border-radius: 10px;
+    border-color: #224FEF;
 }
 
 /* footer style */
@@ -41,14 +46,14 @@ body {
     background-color: green;
     color: white;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .chat-with-us-btn {
     background-color: #ffffff;
     color: #224FEF;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 </style>
